@@ -1,0 +1,42 @@
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\TromfGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\TromfGame.AssemblyInfoInputs.cache
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\TromfGame.AssemblyInfo.cs
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\TromfGame.csproj.CoreCompileInputs.cache
+C:\Users\ps5mi\Desktop\TromfGame\bin\Debug\net10.0\TromfGame.exe
+C:\Users\ps5mi\Desktop\TromfGame\bin\Debug\net10.0\TromfGame.deps.json
+C:\Users\ps5mi\Desktop\TromfGame\bin\Debug\net10.0\TromfGame.runtimeconfig.json
+C:\Users\ps5mi\Desktop\TromfGame\bin\Debug\net10.0\TromfGame.dll
+C:\Users\ps5mi\Desktop\TromfGame\bin\Debug\net10.0\TromfGame.pdb
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\TromfGame.dll
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\refint\TromfGame.dll
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\TromfGame.pdb
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\TromfGame.genruntimeconfig.cache
+C:\Users\ps5mi\Desktop\TromfGame\obj\Debug\net10.0\ref\TromfGame.dll
+C:\Users\ps5mi\Desktop\TrompfGame\bin\Debug\net10.0\TrompfGame.exe
+C:\Users\ps5mi\Desktop\TrompfGame\bin\Debug\net10.0\TrompfGame.deps.json
+C:\Users\ps5mi\Desktop\TrompfGame\bin\Debug\net10.0\TrompfGame.runtimeconfig.json
+C:\Users\ps5mi\Desktop\TrompfGame\bin\Debug\net10.0\TrompfGame.dll
+C:\Users\ps5mi\Desktop\TrompfGame\bin\Debug\net10.0\TrompfGame.pdb
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\TrompfGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\TrompfGame.AssemblyInfoInputs.cache
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\TrompfGame.AssemblyInfo.cs
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\TrompfGame.csproj.CoreCompileInputs.cache
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\TrompfGame.dll
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\refint\TrompfGame.dll
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\TrompfGame.pdb
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\TrompfGame.genruntimeconfig.cache
+C:\Users\ps5mi\Desktop\TrompfGame\obj\Debug\net10.0\ref\TrompfGame.dll
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\bin\Debug\net10.0\TrompfGame.exe
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\bin\Debug\net10.0\TrompfGame.deps.json
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\bin\Debug\net10.0\TrompfGame.runtimeconfig.json
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\bin\Debug\net10.0\TrompfGame.dll
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\bin\Debug\net10.0\TrompfGame.pdb
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\TrompfGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\TrompfGame.AssemblyInfoInputs.cache
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\TrompfGame.AssemblyInfo.cs
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\TrompfGame.csproj.CoreCompileInputs.cache
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\TrompfGame.dll
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\refint\TrompfGame.dll
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\TrompfGame.pdb
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\TrompfGame.genruntimeconfig.cache
+C:\Facultate\Anul 3\Semestrul 1\CFLP\Proiect\TrompfGame\obj\Debug\net10.0\ref\TrompfGame.dll
