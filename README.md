@@ -8,7 +8,7 @@
 
 ---
 
-## Overview
+## 1. Overview
 
 This project represents a **C# implementation of the Trompf card game**, simulating a complete match with **4 players divided into 2 teams**, played over **6 rounds**.
 
@@ -16,7 +16,7 @@ The application focuses on accurately modeling core mechanics such as **bidding,
 
 ---
 
-## Main Features
+## 2. Main Features
 
 - 24-card deck *(ranks: 2, 3, 4, 9, 10, 11/Ace)*
 - Card dealing *(6 cards per player)*
@@ -29,7 +29,7 @@ The application focuses on accurately modeling core mechanics such as **bidding,
 
 ---
 
-## Technical Details
+## 3. Technical Details
 
 - Developed in **C# using .NET**
 - Object-Oriented design with core classes:
@@ -47,7 +47,7 @@ The application focuses on accurately modeling core mechanics such as **bidding,
 
 ---
 
-## Game Flow
+## 4. Game Flow
 
 Start Game  
 ↓  
@@ -79,7 +79,7 @@ Determine winning team
 
 ---
 
-## Setup & Installation
+## 5. Setup & Installation
 
 To run this project, you need to have **.NET SDK installed** on your system.
 
@@ -107,7 +107,7 @@ dotnet run
 
 ---
 
-## Notes
+## 6. Notes
 
 - The application runs in the **console (terminal-based interface)**
 - Make sure you are inside the project directory containing the `.csproj` file
@@ -115,7 +115,7 @@ dotnet run
 
 ---
 
-## Project Scope
+## 7. Project Scope
 
 This project fulfills all assignment requirements, including:
 - Bidding logic
