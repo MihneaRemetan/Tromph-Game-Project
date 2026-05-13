@@ -49,33 +49,30 @@ The application focuses on accurately modeling core mechanics such as **bidding,
 
 ## 4. Game Flow
 
-Start Game  
-↓  
-Create 24-card deck  
-↓  
-Shuffle deck  
-↓  
-Deal 6 cards to each player  
-↓  
-Bidding phase  
-↓  
-Determine highest bidder  
-↓  
-Play first card  
-↓  
-Set trump suit based on first played card  
-↓  
-Play tricks according to game rules  
-↓  
-Calculate small points  
-↓  
-Convert small points into big points  
-↓  
-Update team scores  
-↓  
-Repeat until 6 rounds are completed  
-↓  
-Determine winning team  
+- **Start Game**
+  - Create 24-card deck
+  - Shuffle deck
+  - Deal 6 cards to each player
+
+- **Bidding Phase**
+  - Players place bids (0–4 big points)
+  - Determine highest bidder
+
+- **Gameplay**
+  - First card is played
+  - Trump suit is set based on the first played card
+  - Players play tricks according to game rules
+
+- **Scoring**
+  - Calculate small points
+  - Convert small points into big points *(1 big point = 33 small points)*
+  - Update team scores
+
+- **Loop**
+  - Repeat for 6 rounds
+
+- **End Game**
+  - Determine winning team
 
 ---
 
