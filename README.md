@@ -1,6 +1,6 @@
 <div align="center">
 
-# Trompf Card Game (C# Implementation)
+# Trompf Card Game
 
 **Console-based card game simulation • .NET • OOP Design**
 
