@@ -49,77 +49,31 @@ The application focuses on accurately modeling core mechanics such as **bidding,
 
 ## 4. Game Flow
 
-```
-+----------------------+
-|      Start Game      |
-+----------+-----------+
-           |
-           v
-+----------------------+
-| Create 24-card deck  |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|    Shuffle deck      |
-+----------+-----------+
-           |
-           v
-+-------------------------------+
-| Deal 6 cards to each player   |
-+---------------+---------------+
-                |
-                v
-+----------------------+
-|    Bidding Phase     |
-+----------+-----------+
-           |
-           v
-+-------------------------------+
-| Determine highest bidder      |
-+---------------+---------------+
-                |
-                v
-+----------------------+
-|   Play first card    |
-+----------+-----------+
-           |
-           v
-+---------------------------------------------+
-| Set trump suit based on first played card   |
-+--------------------+------------------------+
-                     |
-                     v
-+----------------------------------+
-| Play tricks according to rules   |
-+----------------+-----------------+
-                 |
-                 v
-+----------------------+
-| Calculate small pts  |
-+----------+-----------+
-           |
-           v
-+-------------------------------+
-| Convert to big points         |
-+---------------+---------------+
-                |
-                v
-+----------------------+
-| Update team scores   |
-+----------+-----------+
-           |
-           v
-+-------------------------------+
-| Repeat until 6 rounds         |
-+---------------+---------------+
-                |
-                v
-+----------------------+
-| Determine winner     |
-+----------------------+
-```
+- **Start Game**
+  - Create 24-card deck
+  - Shuffle deck
+  - Deal 6 cards to each player
 
+- **Bidding Phase**
+  - Players place bids (0–4 big points)
+  - Determine highest bidder
+
+- **Gameplay**
+  - First card is played
+  - Trump suit is set based on the first played card
+  - Players play tricks according to game rules
+
+- **Scoring**
+  - Calculate small points
+  - Convert small points into big points *(1 big point = 33 small points)*
+  - Update team scores
+
+- **Loop**
+  - Repeat for 6 rounds
+
+- **End Game**
+  - Determine winning team
+    
 ---
 
 ## 5. Setup & Installation
