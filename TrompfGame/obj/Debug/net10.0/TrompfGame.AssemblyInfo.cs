@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrompfGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+322526c03a1f5e18a2ca4c1154202abb3182aa60")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrompfGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrompfGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

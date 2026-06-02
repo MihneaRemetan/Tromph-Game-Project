@@ -169,8 +169,13 @@ namespace TrompfGame.Core{
             }
 
             int maxBid = players.Max(p => p.Bid);
-            
-            //cautam primul jucator in ordinea licitatiei care are bid-ul maxim
+
+            if(maxBid == 0){
+                biddingWinner = null;
+                Console.WriteLine("\nNo player placed a bid. No bidding winner.\n");
+                return;
+            }
+
             for (int i = 0; i < 4; i++){
                 var p = players[(biddingStart + i) % 4];
                 if(p.Bid == maxBid){
@@ -178,10 +183,10 @@ namespace TrompfGame.Core{
                     break;
                 }
             }
-            
+
             if(biddingWinner == null)
                 throw new InvalidOperationException("Bidding winner could not be determined!");
-                
+
             startIndex = players.IndexOf(biddingWinner);
 
             Console.WriteLine($"\n{biddingWinner.Name} (Team {biddingWinner.TeamID}) wins bidding with {maxBid} points!\n");
@@ -346,8 +351,7 @@ namespace TrompfGame.Core{
         }
 
         private void CalculateScore(){
-            if (biddingWinner == null)
-                throw new InvalidOperationException("Bidding has not been established yet!");
+            bool hasBiddingWinner = biddingWinner != null;
             if (wonTeam1 == null || wonTeam2 == null)
                 throw new InvalidOperationException("Teams cards not initialized!");
 
@@ -376,9 +380,6 @@ namespace TrompfGame.Core{
             int big1 = totalPoints1 / 33;
             int big2 = totalPoints2 / 33;
 
-            int biddingTeam = biddingWinner.TeamID;
-            int bidValue = biddingWinner.Bid;
-
             Console.WriteLine("\nFINAL SCORE:");
             Console.WriteLine($"Team 1 small points from cards: {points1}");
             Console.WriteLine($"Team 1 shout points: {shoutPoints1}");
@@ -388,6 +389,14 @@ namespace TrompfGame.Core{
             Console.WriteLine($"Team 2 shout points: {shoutPoints2}");
             Console.WriteLine($"Team 2 total small points: {totalPoints2} (big points: {big2})");
             Console.WriteLine();
+
+            if(!hasBiddingWinner){
+                Console.WriteLine("No bid was placed. No bid bonus or penalty awarded.");
+                return;
+            }
+
+            int biddingTeam = biddingWinner!.TeamID;
+            int bidValue = biddingWinner.Bid;
             
             //verificare daca echipa care a licitatie a facut punctele licitate (cu strigari incluse)
             if(biddingTeam == 1){
